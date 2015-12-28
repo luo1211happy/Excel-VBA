@@ -1,0 +1,51 @@
+Max 8  30 <> 330  45 
+DillanHoneySally 9  0  30  30 
+Molly 10  30 <> 30  30 
+ 11  0 <> 0  30 
+DylanTobyGlenn 12  0  60  30 
+One choice
+
+Max 8  30 <> 330  45 
+DillanHoneySally 9  0  30  30 
+Dylan 10  0 <> 180  30 
+ 11  0 <> 0  30 
+TobyMollyGlenn 12  0  240  30 
+One choice
+
+Dillan 8  15 <> 75  30 
+SallyHoney 9  0  30  30 
+DylanTobyMolly 10  30  150  30 
+ 11  0 <> 0  30 
+MaxGlenn 12  0  120  45 
+One choice
+
+DillanHoney 9  0  30  30 
+MaxSallyToby 10  0  240  45 
+Molly 10  30 <> 30  30 
+ 11  0 <> 0  30 
+DylanGlenn 12  0  60  30 
+One choice
+
+DillanHoney 9  0  30  30 
+MaxSallyToby 10  0  240  45 
+DylanMolly 10  30  150  30 
+ 11  0 <> 0  30 
+Glenn 12  0 <> 60  45 
+One choice
+
+DillanSally 9  0  30  30 
+MaxHoneyToby 10  0  240  45 
+Molly 10  30 <> 30  30 
+ 11  0 <> 0  30 
+DylanGlenn 12  0  60  30 
+One choice
+
+DillanSally 9  0  30  30 
+MaxHoneyToby 10  0  240  45 
+DylanMolly 10  30  150  30 
+ 11  0 <> 0  30 
+Glenn 12  0 <> 60  45 
+One choice
+
+ 81  9 
+

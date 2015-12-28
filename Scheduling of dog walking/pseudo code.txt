@@ -1,0 +1,106 @@
+function GenerateDog2(Array datejob)
+{
+
+	for (i=1,i<sizeof(datejob)-1;i++)
+	{
+	for(j=i+1;j<sizeof(datejob);j++))
+		{
+			cc = SearchCompatible(datejob(i),datejob(j));
+			//Search Compatibility of two dogs
+			if(cc = 1 || cc = 2)
+			{
+				dog2.SetCompatible(datejob(i),datejob(j));
+				//store two dogs
+				dog2.SetFlag(1);
+				//they are qualified
+				Array.SetDog(dog2);
+				// put in Array
+			}
+		}
+		
+	}
+	//Sort Array according to time
+	for(k=1;k<Array-1;k++)
+	{
+	for(g=k+1;g<Array;g++)
+	{
+		if(Array(k).Starttime+Array(k).Flexibility>Array(g).Starttime+Array(g).Flexibility)
+		{
+			temp = Array(k);
+			Array(k) = Array(g);
+			Array(g)=Array(k);
+			
+		}
+	}
+	}
+} 		
+function GenerateDog3(Array datejob)
+{
+	dog2 = GenerateDog2(datejob)
+	for(i=1;i<sizeof(dog2);i++)
+	{
+		for(j=i+1;j<sizeof(dog2);j++)
+		{
+			if(dog2(i).get(2)==dog2(j).get(1))
+			{
+				//if dog2 group contains a dog which is also the domain dog of another dog2 group
+				//to see whether their sets are overlaped
+				if(dog2(j).get(sth) == dog2(i).get(sth))
+				{
+					dog3.Set(dog2(i).get(1),1)
+					dog3.Set(dog2(i).get(2),2)
+					dog3.Set(dog2(j).get(sth),3)
+					dog3.SetFlag(1)
+					//they are qualified
+					Array.SetDog(dog3)
+				}
+			}
+		}
+	}
+	//Sort Array according to time
+	for(k=1;k<Array-1;k++)
+	{
+	for(g=k+1;g<Array;g++)
+	{
+		if(Array(k).Starttime+Array(k).Flexibility>Array(g).Starttime+Array(g).Flexibility)
+		{
+			temp = Array(k);
+			Array(k) = Array(g);
+			Array(g)=Array(k);
+			
+		}
+	}
+	}
+}
+function Combine(Array dog1, Array dog2, Array dog3) 
+{
+	for(i=1;i<sizeof(dog3);i++)
+	{
+		//put all the dogs of dog3 in combination array
+		Array.add(dog3(i))
+	}
+	for(i=1;i<sizeof(dog2);i++)
+	{
+		if(IsInArray(Array,dog2(i)))
+		{
+			dog2(i).SetFlag(0);
+			//they are not qualified
+		}
+		else
+		{
+			Array.add(dog2(i));
+		}
+	}
+	for(i=1;i<sizeof(dog1);i++)
+	{
+		if(IsInArray(Array,dog1(i)))
+		{
+			dog1(i).SetFlag(0)
+			//they are not qualified
+		}
+		else
+		{
+			Array.add(dog1)
+		}
+	}
+}

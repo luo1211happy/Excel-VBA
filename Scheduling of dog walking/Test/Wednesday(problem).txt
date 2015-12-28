@@ -1,0 +1,18 @@
+Max 8  30 <> 330  45 
+DillanHoneySally 9  0  30  30 
+Poppy 10  0 <> 240  30 
+Molly 10  30 <> 30  30 
+ 11  0 <> 0  30 
+TobyGlenn 12  0  240  30 
+One choice
+
+Max 8  30 <> 330  45 
+DillanHoneySally 9  0  30  30 
+Poppy 10  0 <> 240  30 
+TobyMolly 10  30  330  30 
+ 11  0 <> 0  30 
+Glenn 12  0 <> 60  45 
+One choice
+
+ 100  10 
+

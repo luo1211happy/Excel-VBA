@@ -1,0 +1,20 @@
+DillanSally 9  0  30  30 
+Molly 10  30 <> 30  30 
+ 11  0 <> 0  30 
+DylanTobyGlenn 12  0  60  30 
+One choice
+
+DillanSally 9  0  30  30 
+Toby 10  0 <> 360  30 
+ 11  0 <> 0  30 
+DylanMollyGlenn 12  0  60  30 
+One choice
+
+DillanSally 9  0  30  30 
+Dylan 10  0 <> 180  30 
+ 11  0 <> 0  30 
+TobyMollyGlenn 12  0  240  30 
+One choice
+
+ 100  10 
+
